@@ -19,6 +19,8 @@ namespace regexpEscape
 
         private void button1_Click(object sender, EventArgs e)
         {
+
+
             //文字列中の記号のうち正規表現要素として使われるものをエスケープする
             Console.WriteLine(textBox1.Text);
             Console.WriteLine(Regex.Escape(textBox1.Text));
